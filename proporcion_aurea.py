@@ -87,8 +87,27 @@ if n > 0:
     x.speed(0)
     fiboPlot(n)
     x.penup()
-    turtle.bgpic("tarro.png")
     turtle.done()
     
 else:
     print("Number of iterations must be > 0")
+
+# import turtle
+
+# t = turtle.Turtle()
+
+# a, b = 0, 1
+
+# t.penup()
+# t.goto(-200, 0)
+# t.pendown()
+# t.setheading(90)
+
+# while a < 1000:
+#     t.forward(a)
+#     t.right(90)
+#     temp = a
+#     a = b
+#     b = temp + b
+
+# turtle.done()
